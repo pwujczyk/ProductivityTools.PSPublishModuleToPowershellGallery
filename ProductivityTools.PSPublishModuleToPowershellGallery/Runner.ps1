@@ -1,5 +1,5 @@
 clear
 Import-Module D:\GitHub\ProductivityTools.PSPublishModuleToPowershellGallery\ProductivityTools.PSPublishModuleToPowershellGallery\ProductivityTools.PSPublishModuleToPowershellGallery.psm1 -Force
-cd D:\GitHub\ProductivityTools.PSPublishModuleToPowershellGallery\ProductivityTools.PSPublishModuleToPowershellGallery
+cd d:\GitHub\ProductivityTools.PSManageGitRepositories\
 Set-MasterConfigurationBaseConfigurationFile -BaseConfigurationFileName D:\Tech\PSMasterConfiguration.xml
 Publish-ModuleToPowershellGallery -Verbose
