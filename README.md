@@ -1,13 +1,16 @@
-<p align="right">
- <a href="https://www.powershellgallery.com/packages/ProductivityTools.PSPublishModuleToPowershellGallery">
-  <img src="http://cdn.productivitytools.tech/Powershell40px.png" /></a>
-<a href="http://www.productivitytools.tech/publish-moduletopowershellgallery/">
-<img src="http://cdn.productivitytools.tech/Blog40px.png" /><a>
+<!--Category:Powershell--> 
+ <p align="right">
+    <a href="https://www.powershellgallery.com/packages/ProductivityTools.PSPublishModuleToPowershellGallery/"><img src="Images/Header/Powershell_border_40px.png" /></a>
+    <a href="http://productivitytools.tech/publish-moduletopowershellgallery/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
+    <a href="https://github.com/pwujczyk/ProductivityTools.PSPublishModuleToPowershellGallery"><img src="Images/Header/Github_border_40px.png" /></a>
+</p>
+<p align="center">
+    <a href="http://productivitytools.tech/">
+        <img src="Images/Header/LogoTitle_green_500px.png" />
+    </a>
 </p>
 
-
-
-# ProductivityTools.PSPublishModuleToPowershellGallery
+# Publish module to PowerShell Gallery
 
 Module finds psd1 file in current directory (recursive) and pushes it to www.powershellgallery.com portal.
 

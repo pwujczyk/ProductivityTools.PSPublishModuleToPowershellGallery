@@ -1,5 +1,5 @@
 clear
 Import-Module D:\GitHub\ProductivityTools.PSPublishModuleToPowershellGallery\ProductivityTools.PSPublishModuleToPowershellGallery\ProductivityTools.PSPublishModuleToPowershellGallery.psm1 -Force
-cd d:\GitHub-3.PublishedToLinkedIn\ProductivityTools.PSGetCurrentWifiPassword\
-Set-MasterConfigurationBaseConfigurationFile -BaseConfigurationFileName D:\Tech\PSMasterConfiguration.xml
-Publish-ModuleToPowershellGallery -Verbose
+cd D:\GitHub\ProductivityTools.PSPublishModuleToPowerShellGallery\
+
+Publish-ModuleToPowerShellGallery -Verbose -IncreaseModuleVersion 
