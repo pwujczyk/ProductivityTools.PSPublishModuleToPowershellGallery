@@ -1,5 +1,6 @@
 clear
+Import-Module D:\GitHub-3.PublishedToLinkedIn\ProductivityTools.PSMasterConfiguration\ProductivityTools.PSMasterConfiguration.Cmdlet\bin\Debug\netstandard2.0\ProductivityTools.MasterConfiguration.dll -Force
 Import-Module D:\GitHub\ProductivityTools.PSPublishModuleToPowershellGallery\ProductivityTools.PSPublishModuleToPowershellGallery\ProductivityTools.PSPublishModuleToPowershellGallery.psm1 -Force
 cd D:\GitHub\ProductivityTools.PSPublishModuleToPowerShellGallery\
-
+#cd D:\GitHub-3.PublishedToLinkedIn\ProductivityTools.PSMasterConfiguration\ProductivityTools.PSMasterConfiguration.Cmdlet
 Publish-ModuleToPowerShellGallery -Verbose -IncreaseModuleVersion 

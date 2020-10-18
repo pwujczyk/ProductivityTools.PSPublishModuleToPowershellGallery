@@ -1,0 +1,7 @@
+@startuml
+start
+ :Get API key from MasterConfiguration;
+ :Get name of the PowerShell Gallery;
+ :Invoke PublishModuleTo cmdlet;
+stop
+@enduml

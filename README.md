@@ -14,16 +14,19 @@
 
 Module finds psd1 file in current directory (recursive) and pushes it to www.powershellgallery.com portal.
 
-Module is dependent on Publish-ModuleTo and improves command by pushing to powershell gallery (you don’t need to provide name of repository). It uses MasterConfiguration PSRepositoryApiKey key. So before use you need to setup configuration with command:
+![Diagram](Images/Diagram.png)
 
-```powershell
-Set-MasterConfiguration -Key PSRepositoryApiKey -Value "xxx"
-```
 
-Next you can just go to the directory where psd1 file is placed (or parent) and invoke:
+Module is dependent on [Publish-ModuleTo](http://productivitytools.tech/publish-moduleto/). It uses [MasterConfiguration](http://productivitytools.tech/powershell-master-configuration/). To use it add **PSRepositoryApiKey** key to MasterConfiguration. 
+
+![Diagram](Images/PSMasterConfiguration.png)
+
+
+To use module invoke command in the directory of module.
 
 ```powershell
 Publish-ModuleToPowershellGallery
 ```
 
-And that is it. Module should be pushed automatically
+![Execution](Images/Execution.png)
+
