@@ -14,6 +14,16 @@
 
 Module finds psd1 file in current directory (recursive) and pushes it to www.powershellgallery.com portal.
 
+<!--more-->
+
+<!--og-image-->
+- First it takes your API key to PowerShell Gallery from the [MasterConfiguration](http://productivitytools.tech/powershell-master-configuration/).
+
+- Next it takes PowerShell Gallery name which is usually PSGallery, but can be different if you have your own configuration. You can check it using Get-PSRepository cmdlet.
+
+- In the last step it invokes **Publish-ModuleTo** cmdlet which pushes modules.
+
+
 ![Diagram](Images/Diagram.png)
 
 
